@@ -1,5 +1,3 @@
-# require_relative '../config/environment' # I want to use pry in here
-
 class PigLatinizer
 
   def piglatinize(word)
@@ -31,4 +29,4 @@ end
 p = PigLatinizer.new
 
 puts p.piglatinize("pork")
-binding.pry
+# binding.pry
