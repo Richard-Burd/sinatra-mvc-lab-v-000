@@ -15,8 +15,8 @@ describe 'class PigLatinizer' do
     expect(words.piglatinize("until")).to eq("untiltasah")
     expect(words.piglatinize("this")).to eq("isthackh")
     expect(words.piglatinize("Enumeration")).to eq("Enumerationtasah")
-    expect(words.piglatinize("spray")).to eq("ayspray")
-    expect(words.piglatinize("prays")).to eq("ayspray")
+    expect(words.piglatinize("spray")).to eq("aysprackh")
+    expect(words.piglatinize("prays")).to eq("aysprackh")
   end
 
   it 'has a method splits the sentence to piglatinize each word' do
