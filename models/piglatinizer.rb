@@ -3,7 +3,7 @@ class PigLatinizer
   def piglatinize(word)
 
 #   non_pig_latin_words = []
-    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    vowels = ["a", "e", "i", "o", "u"]
 
 #   if non_pig_latin_words.include?(word)
 #     word
