@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/goataramaicize' do
-    @goataramaic = GoatAramaicizer.new.to_pig_latin(params[:user_phrase])
+    @goataramaic = GoatAramaicizer.new.to_goat_aramaic(params[:user_phrase])
     erb :outcome
   end
 
