@@ -1,4 +1,4 @@
-require_relative 'config/environment' # I want to use pry in here
+require_relative './config/environment' # I want to use pry in here
 
 class PigLatinizer
 
