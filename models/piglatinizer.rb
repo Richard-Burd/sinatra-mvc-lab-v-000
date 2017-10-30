@@ -8,7 +8,7 @@ class PigLatinizer
 #   if non_pig_latin_words.include?(word)
 #     word
     if vowels.include? word[0]
-      word << "way"
+      word << "tasah"
     else
       consonants = ""
       while !vowels.include?(word[0])
