@@ -1,6 +1,6 @@
-class PigLatinizer
+class GoatAramaicizer
 
-  def piglatinize(word)
+  def goataramaicize(word)
 
 #   non_pig_latin_words = []
     vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
@@ -20,13 +20,13 @@ class PigLatinizer
   end
 
 
-  def to_pig_latin(string)
-    string.split.collect{|word| piglatinize(word)}.join(" ")
+  def to_goat_aramaic(string)
+    string.split.collect{|word| goataramaicize(word)}.join(" ")
   end
 
 end
 
-p = PigLatinizer.new
+p = GoatAramaicizer.new
 
-puts p.piglatinize("pork")
+puts p.goataramaicize("pork")
 # binding.pry
