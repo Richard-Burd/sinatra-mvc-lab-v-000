@@ -13,7 +13,7 @@ describe 'class PigLatinizer' do
     expect(words.piglatinize("please")).to eq("easeplackh")
     expect(words.piglatinize("tomorrow")).to eq("omorrowtackh")
     expect(words.piglatinize("until")).to eq("untiltasah")
-    expect(words.piglatinize("this")).to eq("isthay")
+    expect(words.piglatinize("this")).to eq("isthackh")
     expect(words.piglatinize("Enumeration")).to eq("Enumerationtasah")
     expect(words.piglatinize("spray")).to eq("ayspray")
     expect(words.piglatinize("prays")).to eq("ayspray")
