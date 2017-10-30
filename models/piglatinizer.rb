@@ -31,3 +31,4 @@ end
 p = PigLatinizer.new
 
 puts p.piglatinize("pork")
+binding.pry
